@@ -1,0 +1,176 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Primary Blue Color */
+}
+
+/* Sections */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.dark-bg {
+    background-color: #e9ecef;
+}
+
+/* Header/Hero Section */
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 80px 20px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover;
+    border: 5px solid white; /* White border for emphasis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Connect Section */
+.connect-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.connect-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+.connect-button:hover {
+    background-color: #0056b3;
+}
+
+.location-tag {
+    background-color: #6c757d; /* Different color for the static location tag */
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.skill-card ul {
+    list-style-type: none;
+    padding: 0;
+    columns: 2; /* Make lists look compact */
+}
+
+.skill-card li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+/* Projects Section */
+.project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-goal {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    margin-top: 20px;
+}
+
+.link-btn {
+    background-color: #28a745; /* Success Green */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.link-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* Education Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
